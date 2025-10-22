@@ -1,1 +1,16 @@
+enumerate() - funkcja pozwalająca na iterowanie po kolejnych elementach danej kolekcji, zwrając indeks elementu. 
+
+abs() - funkcja zwrająca wartość bezwzględną liczby. Jest to zawsze wynik nieujemny, pokazujący odległość od zera. 
+
+zip() - funkcja słuząca do łączenia ze sobą róznych iterowalnych obiektów, gdzie elementy tych list, krotek itp. są ze sobą dobiera na podstawie ich indeksu.
+Nalezy uwazac uzywajac tej funkcji, poniewaz np. kiedy mamy rózne dlugosci dwóch zbiorów, funkcja zatrzymuje się w momencie zakończenia krótszego z nich. Do tego jest "leniwy", zwraca iterator dopiero w momencie wykonania iteracji, np. w pętli itp. 
+
+źródło: https://docs.python.org/3/library/functions.html#enumerate
+
+random() - moduł pozwalający na generowanie losowych wartości liczbowych (zarówno int jak i float). Pozwala na losowy wybor elementu z danego zbioru, natomiast nie jest to moduł przeznaczony do kryptografii. Funkcje z random są deterministyczne, opierają się tak na prawdę na generatorze "pseudo losowym", przez co jeśli ktoś pozna seed, moze wówczaj poznać wszystkie kolejne liczby. 
+
+źródło: https://docs.python.org/3/library/random.html
+
+
+ZeroDivisionError - wyjątek pojawiający się kiedy uzytkownik próbuje wykonać działanie dzielenia przez zero. 
 
