@@ -28,16 +28,16 @@ def selection_sort(tab):
         
     return tab
 
-def merge_sort(tab):
-    n = len(tab)
-    size = 1
-    while size < n:
-        for i in range(n-1, (i+1)*size):
-            left_start = i
-            left_end = min(i + (size-1), n-1)
-            right_start = left_end + 1
-            right_end = min((i+2)*(size-1), n-1)
-            if right_start < n:
+#def merge_sort(tab):
+#    n = len(tab)
+#    size = 1
+#    while size < n:
+#        for i in range(n-1, (i+1)*size):
+#            left_start = i
+   #         left_end = min(i + (size-1), n-1)
+  #          right_start = left_end + 1
+  #          right_end = min((i+2)*(size-1), n-1)
+  #          if right_start < n:
                 
 
 def is_sorted(tab):
