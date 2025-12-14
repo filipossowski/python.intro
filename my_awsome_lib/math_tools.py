@@ -163,4 +163,3 @@ def absolute(n: float):
     
 
 
-print(fibonacci(0))
